@@ -14,6 +14,7 @@
 		CE544084299631630022A336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE544083299631630022A336 /* main.m */; };
 		CE54408F299632A40022A336 /* ZWQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE54408E299632A40022A336 /* ZWQRCodeViewController.m */; };
 		CE5440922997583B0022A336 /* ZWQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5440912997583B0022A336 /* ZWQRCodeView.m */; };
+		CE54409829977E1F0022A336 /* ZWGenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = CE54409729977E1F0022A336 /* ZWGenerateQRCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		CE54408E299632A40022A336 /* ZWQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWQRCodeViewController.m; sourceTree = "<group>"; };
 		CE5440902997583B0022A336 /* ZWQRCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWQRCodeView.h; sourceTree = "<group>"; };
 		CE5440912997583B0022A336 /* ZWQRCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWQRCodeView.m; sourceTree = "<group>"; };
+		CE54409629977E1F0022A336 /* ZWGenerateQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWGenerateQRCode.h; sourceTree = "<group>"; };
+		CE54409729977E1F0022A336 /* ZWGenerateQRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWGenerateQRCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CE54408E299632A40022A336 /* ZWQRCodeViewController.m */,
 				CE5440902997583B0022A336 /* ZWQRCodeView.h */,
 				CE5440912997583B0022A336 /* ZWQRCodeView.m */,
+				CE54409629977E1F0022A336 /* ZWGenerateQRCode.h */,
+				CE54409729977E1F0022A336 /* ZWGenerateQRCode.m */,
 				CE54407A299631600022A336 /* Main.storyboard */,
 				CE54407D299631630022A336 /* Assets.xcassets */,
 				CE54407F299631630022A336 /* LaunchScreen.storyboard */,
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE544073299631600022A336 /* AppDelegate.m in Sources */,
+				CE54409829977E1F0022A336 /* ZWGenerateQRCode.m in Sources */,
 				CE544084299631630022A336 /* main.m in Sources */,
 				CE54408F299632A40022A336 /* ZWQRCodeViewController.m in Sources */,
 				CE5440922997583B0022A336 /* ZWQRCodeView.m in Sources */,
@@ -295,11 +301,11 @@
 				DEVELOPMENT_TEAM = 9KARD3S8BX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZWQRCode/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to access your photo library for saving QR code.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,11 +329,11 @@
 				DEVELOPMENT_TEAM = 9KARD3S8BX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZWQRCode/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to access your photo library for saving QR code.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
