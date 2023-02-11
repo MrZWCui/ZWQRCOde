@@ -39,6 +39,7 @@
     _textField.backgroundColor = [UIColor whiteColor];
     _textField.layer.masksToBounds = YES;
     _textField.layer.cornerRadius = 10;
+    _textField.placeholder = @"Please enter the content or website";
     [self addSubview:_textField];
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(kWidth - 130, 90, 100, 40)];
